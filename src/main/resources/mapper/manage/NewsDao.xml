@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.szdx.lifeAssistant.sys.dao.NewsDao">
+
+    <select id="getNews" resultType="News">
+        select * from sys_news
+        where id = #{id}
+    </select>
+
+    <delete id="deleteNews">
+        DELETE FROM sys_news WHERE id=#{id}
+    </delete>
+
+    <update id="updateNews">
+        UPDATE sys_news SET
+        title =#{title},
+        message =#{message}
+        WHERE id=#{id}
+    </update>
+
+    <insert id="insertNews">
+        insert INTO sys_news (
+        id,
+        number,
+        title,
+        createTime,
+        message
+        )VALUES (
+        #{id},
+        #{number},
+        #{title},
+        now(),
+        #{message}
+        )
+    </insert>
+
+    <select id="getNewsPage" resultType="News">
+        SELECT * FROM sys_news
+        limit #{startCount}, 200
+    </select>
+
+    <select id="count" resultType="int">
+        SELECT count(*)+1 FROM  sys_news
+    </select>
+
+</mapper>

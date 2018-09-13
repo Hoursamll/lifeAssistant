@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+      http://www.springframework.org/schema/context
+      http://www.springframework.org/schema/context/spring-context.xsd
+      http://www.springframework.org/schema/mvc
+      http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+      http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!-- 自动扫描  @Controller-->
+    <context:component-scan base-package="com.szdx.lifeAssistant.sys.controller"/>
+
+    <!--<context:annotation-config/>-->
+    <aop:aspectj-autoproxy/>
+
+    <!-- 启用spring mvc 注解 -->
+    <mvc:annotation-driven/>
+    <mvc:default-servlet-handler/>
+
+    <!-- 对静态资源文件的访问， 将无法mapping到Controller的path交给default servlet handler处理 -->
+    <mvc:default-servlet-handler />
+
+    <!-- 静态资源映射 -->
+    <mvc:resources mapping="/base/**" location="/base/" cache-period="31536000"/>
+    <mvc:resources mapping="/static/**" location="/static/" cache-period="31536000"/>
+
+    <!-- 定义跳转的文件的前后缀，视图模式配置 -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/pages/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+    <bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+        <property name="converters">
+            <bean class="com.szdx.lifeAssistant.common.web.CustomDateEdtor" />
+        </property>
+    </bean>
+
+    <mvc:annotation-driven conversion-service="conversionService" />
+
+    <!--Spring MVC 拦截器定义-->
+    <mvc:interceptors>
+       <!-- <mvc:interceptor>
+            &lt;!&ndash;拦截客户端api所有请求&ndash;&gt;
+            <mvc:mapping path="/api/**"/>
+            &lt;!&ndash;使用bean定义一个Interceptor&ndash;&gt;
+            <bean class="com.ww.cook.interceptor.TokenInterceptor" />
+        </mvc:interceptor>-->
+
+        <mvc:interceptor>
+            <!--拦截后台管理manage所有请求-->
+            <mvc:mapping path="/manage/**"/>
+            <!--使用bean定义一个Interceptor-->
+            <bean class="com.szdx.lifeAssistant.interceptor.LoginInterceptor" />
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+    <!-- 文件上传配置 -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!-- 默认编码 -->
+        <property name="defaultEncoding" value="UTF-8"/>
+        <!-- 上传文件大小限制 -->
+        <property name="maxUploadSize" value="1024000"/>
+        <!-- 内存中的最大值 -->
+        <property name="maxInMemorySize" value="4096"/>
+        <!--&lt;!&ndash; 内存中的最大值 &ndash;&gt;
+        <property name="uploadTempDir" value="fileUpload/temp"/>-->
+    </bean>
+
+    <!-- 配置Freemarker -->
+    <bean id="staticPageService" class="com.szdx.lifeAssistant.sys.staticpage.StaticPageServiceImpl">
+        <property name="freeMarkerConfigurer">
+            <bean class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+                <property name="templateLoaderPath" value="/ftl/"/>
+                <property name="defaultEncoding" value="UTF-8"/>
+            </bean>
+        </property>
+    </bean>
+</beans>

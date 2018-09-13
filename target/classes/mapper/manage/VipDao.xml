@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.szdx.lifeAssistant.sys.dao.VipDao">
+
+    <select id="getVip" resultType="Vip">
+        select * from sys_vip
+        where id = #{id}
+    </select>
+
+    <delete id="deleteVip">
+        DELETE FROM sys_vip WHERE id=#{id}
+    </delete>
+
+    <update id="updateVip">
+        UPDATE sys_vip SET
+        name = #{name},
+        headImg = #{headImg},
+        birthday =#{birthday},
+        address =#{address},
+        phone =#{phone}
+        WHERE id=#{id}
+    </update>
+
+    <insert id="insertVip">
+        INSERT INTO sys_vip(
+        id,
+        number,
+        name,
+        createTime,
+        birthday,
+        address,
+        phone
+        )VALUES (
+        #{id},
+        #{number},
+        #{name},
+        now(),
+        #{birthday},
+        #{address},
+        #{phone}
+        )
+    </insert>
+
+    <select id="getPage" resultType="vip">
+        SELECT * FROM sys_vip
+        limit #{startCount}, 200
+    </select>
+
+    <select id="count" resultType="int">
+        SELECT count(*)+1 FROM  sys_vip
+    </select>
+</mapper>

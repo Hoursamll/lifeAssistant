@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.szdx.lifeAssistant.sys.dao.LifeDao">
+
+    <select id="getLife" resultType="Life">
+        select * from sys_life
+        where id = #{id}
+    </select>
+
+    <delete id="deleteLife">
+        DELETE FROM sys_life WHERE id=#{id}
+    </delete>
+
+    <update id="updateLife">
+        UPDATE sys_life SET
+        imgUrl =#{imgUrl},
+        title =#{title},
+        message =#{message}
+        WHERE id=#{id}
+    </update>
+
+    <insert id="insertLife">
+      insert INTO sys_life (
+        id,
+        number,
+        imgUrl,
+        title,
+        createTime,
+        message
+      )VALUES (
+        #{id},
+        #{number},
+        #{imgUrl},
+        #{title},
+        now(),
+        #{message}
+      )
+    </insert>
+
+    <select id="getLifePage" resultType="Life">
+        SELECT * FROM sys_life
+        limit #{startCount}, 200
+    </select>
+
+    <select id="count" resultType="int">
+        SELECT count(*)+1 FROM  sys_life
+    </select>
+
+</mapper>

@@ -1,0 +1,37 @@
+.contact_body{
+    width: 450px;
+    height: 450px;
+    margin-right: 80px;
+}
+
+.contact_content{
+    width: 380px;
+    height: 300px;
+    margin-left: 45px;
+}
+
+.p1{
+    width: 380px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    margin-top: 30px;
+}
+
+.p2{
+    width: 380px;
+    height: 30px;
+    font-size: 14px;
+    color: #999999;
+    float: left;
+    margin-top: 20px;
+}
+
+.p3{
+    width: 380px;
+    height: 30px;
+    font-size: 16px;
+    color: #666666;
+    float: left;
+}

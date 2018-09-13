@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.szdx.lifeAssistant.sys.dao.ShopDao">
+
+    <sql id="shopColumns">
+        a.ID as "id",
+        a.number as "number",
+        a.title as "title",
+        DATE_FORMAT(a.createTime,'%m-%d-%Y') as "createTime",
+        DATE_FORMAT(a.startDate,'%m-%d-%Y') as "startDate",
+        DATE_FORMAT(a.endDate,'%m-%d-%Y') as "endDate",
+        a.imgUrl as "imgUrl",
+        a.message as "message"
+    </sql>
+
+    <select id="getShop" resultType="Shop">
+        select * from sys_shop
+        where id=#{id}
+    </select>
+
+    <delete id="deleteShop">
+        DELETE FROM sys_shop WHERE id=#{id}
+    </delete>
+
+    <update id="updateShop">
+        UPDATE sys_shop SET
+        title = #{title},
+        startDate =#{startDate},
+        endDate =#{endDate},
+        imgUrl =#{imgUrl},
+        message =#{message}
+        WHERE id=#{id}
+    </update>
+
+    <insert id="insertShop">
+        INSERT INTO sys_shop(
+            id,
+            number,
+            title,
+            createTime,
+            startDate,
+            endDate,
+            imgUrl,
+            message
+        )VALUES (
+          #{id},
+          #{number},
+          #{title},
+          now(),
+          #{startDate},
+          #{endDate},
+          #{imgUrl},
+          #{message}
+        )
+    </insert>
+
+    <select id="getShopPage" resultType="Shop">
+        SELECT * FROM sys_shop
+        limit #{startCount}, 200
+    </select>
+
+    <select id="count" resultType="int">
+        SELECT count(*)+1 FROM  sys_shop
+    </select>
+
+</mapper>
