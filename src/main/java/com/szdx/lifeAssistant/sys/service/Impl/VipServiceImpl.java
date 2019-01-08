@@ -49,4 +49,9 @@ public class VipServiceImpl implements VipService{
     public int count() {
         return vipDao.count();
     }
+
+    @Override
+    public int isExist(String name) {
+        return vipDao.isExist(name);
+    }
 }

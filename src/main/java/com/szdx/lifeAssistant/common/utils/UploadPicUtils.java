@@ -13,17 +13,14 @@ import java.io.InputStream;
  */
 public class UploadPicUtils {
 
-
     public static ResponseData uploadPic(String toPath, HttpServletRequest request, CommonsMultipartFile file){
         String fileName = file.getOriginalFilename();
         System.out.println("原始文件名:" + fileName);
-
         //获取项目路径
         ServletContext sc = request.getSession().getServletContext();
         //上传位置
         //String path = sc.getRealPath("/img") + "/"; //设定文件保存路径
-        String path = "d:/love-cook/uploads/" + toPath; //设定文件保存路径
-
+        String path = "c:/lifeAssistant/uploads/" + toPath; //设定文件保存路径
         File f = new File(path);
         if (!f.exists())
             f.mkdirs();
@@ -42,17 +39,12 @@ public class UploadPicUtils {
                 e.printStackTrace();
             }
         }
-
         System.out.println("上传图片到:" + path + fileName);
-
         System.out.println("图片访问地址:" + Constants.BASE_URL + "love-cook/uploads/" + toPath + fileName);
-
         ResponseData responseData = ResponseData.ok();
         responseData.putDataValue("src",  "love-cook/uploads/" + toPath + fileName);
         responseData.putDataValue("title", "love-cook/uploads/" + toPath + fileName);
-
         return responseData;
     }
-
 
 }

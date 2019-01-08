@@ -13,17 +13,18 @@
     <!-- 自动扫描 -->
     <context:component-scan base-package="com.szdx.lifeAssistant"/>
 
-    <!-- 第一种方式：加载一个properties文件 -->
+    <!-- 第一种方式：加载一个properties文件
     <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
         <property name="location" value="classpath:jdbc.properties"/>
     </bean>
+    -->
 
-    <!-- 第二种方式：加载多个properties文件
+    <!-- 第二种方式：加载多个properties文件 -->
     <bean id="configProperties" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
         <property name="locations">
             <list>
                 <value>classpath:jdbc.properties</value>
-                <value>classpath:common.properties</value>
+                <value>classpath:redis.properties</value>
             </list>
         </property>
         <property name="fileEncoding" value="UTF-8"/>
@@ -31,7 +32,7 @@
     <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer">
         <property name="properties" ref="configProperties"/>
     </bean>
-    -->
+
 
     <!--c3p0连接池-->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
@@ -79,7 +80,6 @@
                 <value>classpath:mapper/manage/*.xml</value>
             </array>
         </property>
-
     </bean>
 
     <!-- DAO接口所在包名，Spring会自动查找其下的类 -->

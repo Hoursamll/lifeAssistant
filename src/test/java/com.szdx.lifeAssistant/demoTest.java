@@ -16,6 +16,7 @@ public class demoTest{
 
     @Test
     public void randomLong() {
+        //测试
         SecureRandom random = new SecureRandom();
         System.out.println("test================" +Math.abs(random.nextLong()));
     }

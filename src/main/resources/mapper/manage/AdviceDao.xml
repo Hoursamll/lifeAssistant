@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.szdx.lifeAssistant.sys.dao.AdviceDao">
+
+    <sql id="adviceColumns">
+        id as id,
+        advicePerson as advicePerson,
+        DATE_FORMAT(adviceDate,'%Y-%m-%d %H:%i:%s') as adviceDate,
+        phone as phone,
+        adviceTitle as adviceTitle,
+        adviceBefore as adviceBefore,
+        adviceAfter as adviceAfter,
+        adviceResult as adviceResult,
+        DATE_FORMAT(createTime,'%Y-%m-%d %H:%i:%s') as createTime,
+        number
+    </sql>
+
+    <select id="getAdvice" resultType="Advice">
+        select
+        <include refid="adviceColumns"/>
+         from JFY_ADVICE
+    </select>
+
+    <select id="get" resultType="Advice">
+        select
+        <include refid="adviceColumns"/>
+        from JFY_ADVICE
+        where id = #{id}
+    </select>
+
+    <delete id="delete">
+        delete FROM JFY_ADVICE where id=#{id}
+    </delete>
+
+    <insert id="insert">
+        insert INTO JFY_ADVICE (
+        id,
+        number,
+        advicePerson,
+        adviceDate,
+        phone,
+        adviceTitle,
+        adviceBefore,
+        adviceAfter,
+        adviceResult,
+        createTime
+      )VALUES (
+        #{id},
+        #{number},
+        #{advicePerson},
+        #{adviceDate},
+        #{phone},
+        #{adviceTitle},
+        #{adviceBefore},
+        #{adviceAfter},
+        #{adviceResult},
+        now()
+      )
+    </insert>
+
+    <select id="queryDate" resultType="Advice">
+        select
+        <include refid="adviceColumns"/>
+        from JFY_ADVICE
+        where
+        <choose>
+            <when test="createTime !=null  and createTime != '' and  adviceDate !=null and adviceDate !='' ">
+                DATE_FORMAT(createTime,'%Y%m%d') BETWEEN DATE_FORMAT(#{createTime},'%Y%m%d') and DATE_FORMAT(#{adviceDate},'%Y%m%d')
+            </when >
+            <otherwise>
+                DATE_FORMAT(createTime,'%Y%m%d') = DATE_FORMAT(#{createTime},'%Y%m%d')
+            </otherwise>
+        </choose>
+    </select>
+
+</mapper>

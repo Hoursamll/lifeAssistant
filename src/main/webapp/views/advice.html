@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>表单组合</title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link rel="stylesheet" href="../layuiadmin/layui/css/layui.css" media="all">
+  <link rel="stylesheet" href="../layuiadmin/style/admin.css" media="all">
+</head>
+<body>
+
+  <div class="layui-fluid">
+    <div class="layui-card">
+      <div class="layui-card-header">合理化建议表</div>
+      <div class="layui-card-body" style="padding: 15px;">
+        <form class="layui-form" action="" lay-filter="component-form-group">
+          <div class="layui-form-item">
+            <div class="layui-inline">
+              <label class="layui-form-label">建议人</label>
+              <div class="layui-input-block">
+                <input type="text" name="advicePerson" id="advicePerson" lay-verify="required|advicePerson" autocomplete="off" placeholder="请输入姓名" class="layui-input">
+              </div>
+            </div>
+            <div class="layui-inline">
+              <label class="layui-form-label">提出日期</label>
+              <div class="layui-input-inline">
+                <input type="text" name="adviceDate" id="adviceDate" lay-verify="required|date" placeholder="yyyy-MM-dd" autocomplete="off" class="layui-input">
+              </div>
+            </div>
+            <div class="layui-inline">
+              <label class="layui-form-label">联系电话</label>
+              <div class="layui-input-inline">
+                <input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input">
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="layui-form-item">
+            <label class="layui-form-label">题目</label>
+            <div class="layui-input-block">
+              <input type="text" name="adviceTitle" lay-verify="required|title" autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item layui-form-text">
+            <label class="layui-form-label">改善前</label>
+            <div class="layui-input-block">
+              <textarea name="adviceBefore" lay-verify="required|advice" placeholder="建议内容：问题/目的、现状、分析、原因：" class="layui-textarea"></textarea>
+            </div>
+          </div>
+          <div class="layui-form-item layui-form-text">
+            <label class="layui-form-label">改善后</label>
+            <div class="layui-input-block">
+              <textarea name="adviceAfter" lay-verify="required|advice" placeholder="建议内容：解决方法、路径、简图、资源、要求等：" class="layui-textarea"></textarea>
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">预期效果</label>
+            <div class="layui-input-block">
+              <input type="text" name="adviceResult" lay-verify="required|title" autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item layui-layout-admin">
+            <div class="layui-input-block">
+              <div class="layui-footer" style="left: 0;">
+                <button class="layui-btn" lay-submit="" lay-filter="component-form-demo1">立即提交</button>
+                <button type="reset" id="reset" class="layui-btn layui-btn-primary">重置</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+    
+  <script src="../layuiadmin/layui/layui.js"></script>
+  <script>
+    layui.config({
+      base: '../layuiadmin/' //静态资源所在路径
+    }).extend({
+      index: 'lib/index' //主入口模块
+    }).use(['index', 'form', 'laydate'], function(){
+      var $ = layui.$
+              ,layer = layui.layer
+              ,laydate = layui.laydate
+              ,form = layui.form;
+
+      form.render(null, 'component-form-group');
+
+      laydate.render({
+        elem: '#adviceDate'
+      });
+    
+    /* 自定义验证规则 */
+    form.verify({
+      advicePerson: function(value){
+        if(value.length > 5){
+          return '请输入正确的姓名';
+        }
+      }
+      ,advice:function(value){
+        if(value.length > 500){
+          return '请输入小于500个字符';
+        }
+      }
+      ,title:function(value){
+        if(value.length > 100){
+          return '标题不能大于100个字符';
+        }
+      }
+      ,content: function(value){
+        layedit.sync(editIndex);
+      }
+    });
+    
+    /* 监听指定开关 */
+    form.on('switch(component-form-switchTest)', function(data){
+      layer.msg('开关checked：'+ (this.checked ? 'true' : 'false'), {
+        offset: '6px'
+      });
+      layer.tips('温馨提示：请注意开关状态的文字可以随意定义，而不仅仅是ON|OFF', data.othis)
+    });
+
+    /* 监听指定开关 */
+    form.on('switch(component-form-switchTest)', function(data){
+      layer.msg('开关checked：'+ (this.checked ? 'true' : 'false'), {
+        offset: '6px'
+      });
+      layer.tips('温馨提示：请注意开关状态的文字可以随意定义，而不仅仅是ON|OFF', data.othis)
+    });
+
+    /* 监听提交 */
+    form.on('submit(component-form-demo1)', function(data){
+      /*parent.layer.alert(JSON.stringify(data.field), {
+       title: '最终的提交信息'
+       })*/
+      var url='/lifeAssistant/advice/save';
+//      var parameter=JSON.stringify(data.field);
+      //跨域
+      $.ajax({
+       url:url,
+       dataType:'json',
+       type:'post',
+       data:data.field,
+       success: function (data) {
+           if(data.flag=='true'|| data.flag==true){
+               layer.alert(data.message);
+               $("#reset").click();
+           }else {
+               layer.alert(data.message);
+           }
+       }
+       })
+      return false;
+    });
+  });
+  </script>
+</body>
+</html>

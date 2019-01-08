@@ -22,4 +22,6 @@ public interface VipDao {
     public Vip getVip(Vip vip);
 
     public int count();
+
+    public int isExist(@Param("name") String name);
 }

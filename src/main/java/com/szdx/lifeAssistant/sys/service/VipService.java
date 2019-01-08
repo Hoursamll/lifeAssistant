@@ -20,4 +20,6 @@ public interface VipService {
     public Vip getVip(Vip vip);
 
     public int count();
+
+    public int isExist(String name);
 }

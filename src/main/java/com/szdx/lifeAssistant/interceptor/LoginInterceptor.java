@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 public class LoginInterceptor implements HandlerInterceptor {
 
     //不拦截"/userLogin"和"/adminLogin"的请求
-    private static final String[] IGNORE_URI = {"/login"};
+    private static final String[] IGNORE_URI = {"/login","/advice/*"};
 
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
         //flag变量用于判断用户是否登录，默认为false

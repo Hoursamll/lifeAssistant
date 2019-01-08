@@ -16,10 +16,10 @@
         <File>/service/apache-tomcat-9.0.2/logs/lifeAssistant.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!--日志文件输出的文件名-->
-            <fileNamePattern>/service/apache-tomcat-9.0.2/logs/lifeAssistant.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
+            <fileNamePattern>.%d{yyyy-MM-dd}.gz</fileNamePattern>
             <append>true</append>
             <!--日志文件保留天数-->
-            <maxHistory>10</maxHistory>
+            <maxHistory>90</maxHistory>
         </rollingPolicy>
         <encoder>
             <pattern>[%d{HH:mm:ss.SSS}][%p][%c{40}][%t] %m%n</pattern>
@@ -32,11 +32,11 @@
         <File>/service/apache-tomcat-9.0.2/logs/error.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!--日志文件输出的文件名-->
-            <fileNamePattern>/service/apache-tomcat-9.0.2/logs/error.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
-            <!--<fileNamePattern>d:/mmalllog/error.log.%d{yyyy-MM-dd}.gz</fileNamePattern>-->
+            <!--<fileNamePattern>/service/apache-tomcat-9.0.2/logs/error.log.%d{yyyy-MM-dd}.gz</fileNamePattern>-->
+            <fileNamePattern>.%d{yyyy-MM-dd}.gz</fileNamePattern>
             <append>true</append>
             <!--日志文件保留天数-->
-            <maxHistory>10</maxHistory>
+            <maxHistory>90</maxHistory>
         </rollingPolicy>
         <encoder>
             <pattern>[%d{HH:mm:ss.SSS}][%p][%c{40}][%t] %m%n</pattern>
@@ -57,23 +57,18 @@
 
     <!-- geelynote mybatis log 日志 -->
 
-    <logger name="com.szdx.lifeAssistant.sys.dao" level="DEBUG"/>
-
-    <!--<logger name="com.ibatis.sqlmap.engine.impl.SqlMapClientDelegate" level="DEBUG" >-->
-        <!--<appender-ref ref="console"/>-->
-    <!--</logger>-->
-
-    <!--<logger name="java.sql.Connection" level="DEBUG">-->
-        <!--<appender-ref ref="console"/>-->
-    <!--</logger>-->
-    <!--<logger name="java.sql.Statement" level="DEBUG">-->
-        <!--<appender-ref ref="console"/>-->
-    <!--</logger>-->
-
-    <!--<logger name="java.sql.PreparedStatement" level="DEBUG">-->
-        <!--<appender-ref ref="console"/>-->
-    <!--</logger>-->
-
+    <logger name="com.szdx.lifeAssistant.sys.dao" level="DEBUG">
+        <appender-ref ref="console"/>
+    </logger>
+    <logger name="java.sql.Connection" level="DEBUG">
+        <appender-ref ref="console"/>
+    </logger>
+    <logger name="java.sql.Statement" level="DEBUG">
+        <appender-ref ref="console"/>
+    </logger>
+    <logger name="java.sql.PreparedStatement" level="DEBUG">
+        <appender-ref ref="console"/>
+    </logger>
     <!-- 日志输出级别 -->
     <root level="DEBUG">
         <appender-ref ref="console"/>

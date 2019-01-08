@@ -45,7 +45,7 @@ public class Life extends Base{
 
     @Override
     public String toString() {
-        return "Life{" +
+        return "Advice{" +
                 "imgUrl='" + imgUrl + '\'' +
                 ", title='" + title + '\'' +
                 ", createTime=" + createTime +

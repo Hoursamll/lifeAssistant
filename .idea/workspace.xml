@@ -1,18 +1,305 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="lifeAssistant:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba431c92-39df-4be0-824d-e2694e8363ae" name="Default" comment="" />
+    <list default="true" id="ba431c92-39df-4be0-824d-e2694e8363ae" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/customSpringBeans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/cache/JedisPoolWriper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/cache/JedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/DESUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/EncryptPropertyPlaceholderConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/web/CustomJsonDateConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/web/ResponseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/web/ServerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/controller/AdviceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/dao/AdviceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/entity/Advice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/service/AdviceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/service/Impl/AdviceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/manage/AdviceDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/float.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/margin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/padding-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/console/prograss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/console/top-card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/console/top-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/content/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/content/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/content/tags.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/forum/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/forum/replys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/layer/photos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/layim/getList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/layim/getMembers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/mall/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/menu1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/message/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/message/detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/message/direct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/message/new.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/message/notice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/table/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/table/demo2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/table/demo3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/table/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/table/user30.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/upload/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/user/forget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/user/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/user/logout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/user/reg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/user/resetpass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/user/session.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/user/sms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/useradmin/mangadmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/useradmin/role.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/useradmin/webuser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/workorder/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/json/说明.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/laydate/default/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/layim/html/chatlog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/layim/html/find.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/layim/html/getmsg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/layim/html/msgbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/layim/layim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/layim/mobile/layim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/layim/skin/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/layim/skin/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/layim/skin/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/layim/skin/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/layim/skin/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/layim/skin/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/css/modules/layim/voice/default.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/all-mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/layim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/mobile/layer-mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/mobile/layim-mobile-open.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/mobile/layim-mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/mobile/upload-mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/mobile/zepto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/lib/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/lib/extend/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/lib/extend/echartsTheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/lib/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/modules/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/modules/console.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/modules/contlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/modules/forum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/modules/im.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/modules/message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/modules/sample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/modules/senior.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/modules/set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/modules/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/modules/useradmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/modules/workorder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/style/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/style/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/style/res/bg-none.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/style/res/layui-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/style/res/logo-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/style/res/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/style/res/template/character.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/style/res/template/huge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/style/res/template/portrait.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/style/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/tpl/layim/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/tpl/system/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/tpl/system/get.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/tpl/system/more.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/tpl/system/theme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/tpl/system/说明.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layuiadmin/tpl/说明.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/advice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/lifeAssistant_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/lifeAssistant_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifeAssistant.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lifeAssistant.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/IdGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/IdGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/UploadPicUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/UploadPicUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/web/CustomDateEdtor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/web/CustomDateEdtor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/dao/VipDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/dao/VipDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/entity/Life.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/entity/Life.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/service/Impl/VipServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/service/Impl/VipServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/service/VipService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/service/VipService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/manage/VipDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/manage/VipDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com.szdx.lifeAssistant/demoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.szdx.lifeAssistant/demoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/szdx/lifeAssistant/common/utils/IdGen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/szdx/lifeAssistant/common/utils/IdGen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/szdx/lifeAssistant/common/utils/UploadPicUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/szdx/lifeAssistant/common/utils/UploadPicUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/szdx/lifeAssistant/common/web/CustomDateEdtor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/szdx/lifeAssistant/common/web/CustomDateEdtor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/szdx/lifeAssistant/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/szdx/lifeAssistant/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/szdx/lifeAssistant/sys/dao/VipDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/szdx/lifeAssistant/sys/dao/VipDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/szdx/lifeAssistant/sys/entity/Life.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/szdx/lifeAssistant/sys/entity/Life.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/szdx/lifeAssistant/sys/service/Impl/VipServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/szdx/lifeAssistant/sys/service/Impl/VipServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/szdx/lifeAssistant/sys/service/VipService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/szdx/lifeAssistant/sys/service/VipService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/manage/VipDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/manage/VipDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lifeAssistant.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/lifeAssistant.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lifeAssistant/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/lifeAssistant/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/common/utils/Base64Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/common/utils/Base64Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/common/utils/IdGen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/common/utils/IdGen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/common/utils/ResponseUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/common/utils/ResponseUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/common/utils/UploadPicUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/common/utils/UploadPicUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/common/web/CustomDateEdtor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/common/web/CustomDateEdtor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/sys/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/sys/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/sys/dao/VipDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/sys/dao/VipDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/sys/entity/Life.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/sys/entity/Life.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/sys/service/Impl/VipServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/sys/service/Impl/VipServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/sys/service/VipService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/com/szdx/lifeAssistant/sys/service/VipService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/mapper/manage/VipDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/mapper/manage/VipDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/classes/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/lifeAssistant/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/szdx/lifeAssistant/demoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/szdx/lifeAssistant/demoTest.class" afterDir="false" />
+    </list>
     <ignored path="lifeAssistant.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
@@ -28,81 +315,125 @@
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="1146711834">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="27" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.123" value="1" />
+          <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="5" />
+          <entry key="project.open.time.16" value="5" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="14" />
+          <entry key="html" value="6" />
+          <entry key="java" value="128" />
+          <entry key="js" value="1" />
+          <entry key="jsp" value="6" />
+          <entry key="properties" value="7" />
+          <entry key="xml" value="33" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="14" />
+          <entry key="HTML" value="6" />
+          <entry key="JAVA" value="128" />
+          <entry key="JSP" value="6" />
+          <entry key="JavaScript" value="1" />
+          <entry key="Properties" value="7" />
+          <entry key="XML" value="33" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="11" />
+          <entry key="html" value="99" />
+          <entry key="java" value="1430" />
+          <entry key="properties" value="4" />
+          <entry key="xml" value="860" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="99" />
+          <entry key="JAVA" value="1430" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Properties" value="4" />
+          <entry key="SQL" value="35" />
+          <entry key="XML" value="825" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="lifeAssistant" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/cache/JedisPoolWriper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LifeDao.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/manage/LifeDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+            <state relative-caret-position="165">
+              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding>
-                <marker date="1523282487000" expanded="true" signature="261:308" ph="select * fro... sys_life" />
-                <marker date="1523282487000" expanded="true" signature="361:396" ph="DELETE FROM " />
-                <marker date="1523282487000" expanded="true" signature="449:571" ph="UPDATE sys_l... " />
-                <marker date="1523282487000" expanded="true" signature="622:868" ph="insert INTO sys_life... " />
-                <marker date="1523282487000" expanded="true" signature="940:995" ph="SELECT * FRO... sys_life" />
-                <marker date="1523282487000" expanded="true" signature="1060:1092" ph="SELECT count... sys_life" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LifeDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/dao/LifeDao.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://$PROJECT_DIR$/../../service/mavenRepository/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/JedisPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-redis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="33" column="75" lean-forward="true" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="75" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="e#1199#1218#0" expanded="true" />
+                <element signature="e#1257#1272#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomDateEdtor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/web/CustomDateEdtor.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/cache/JedisUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="90">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="e#1355#1356#0" expanded="true" />
+                <element signature="e#1381#1382#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Base64Util.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/Base64Util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MD5Util.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/MD5Util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -112,70 +443,106 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getAdvice</find>
+      <find>log</find>
+      <find>getPage</find>
+      <find>SimpleDateFormat</find>
+      <find>JsonSerializer</find>
+      <find>annotation-driven</find>
+      <find>CustomDateEdtor</find>
+      <find>jackson</find>
+      <find>MappingJacksonHttpMessageConverter</find>
+      <find>converters</find>
+      <find>mvc:annotation-driven</find>
+      <find>customObjectMapper</find>
+      <find>conversionService</find>
+      <find>/service/apache-tomcat-9.0.2/logs/lifeAssistant.log</find>
+      <find>gz</find>
+      <find>dataSource</find>
+      <find>ContextLoaderListener</find>
+      <find>DEBUG</find>
+      <find>console</find>
+      <find>error</find>
+      <find>transactionManager</find>
+      <find>lifeAssistant</find>
+      <find>name=&quot;lifeAssistant&quot;</find>
+      <find>myo2o</find>
+      <find>init</find>
+      <find>RollingFileAppender</find>
+      <find>redis</find>
+      <find>contextConfigLocation</find>
+      <find>JedisUtil$Sets</find>
+      <find>Sets</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/InfoDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/interceptor/TokenInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/ResponseData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/Constants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/service/Impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/base/BaseController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/manage/UserDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/views/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/index.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/entity/Base.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/entity/Life.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/entity/Vip.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/entity/Shop.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/views/main.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/cache.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/views/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/include/taglib.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/persistence/Page.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/exception/BizException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/exception/TopExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/persistence/entity/entity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/aop/FilterAOP.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/dao/LifeDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/persistence/dao/Dao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/persistence/entity/Entity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/persistence/dao/EntryDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/IdGen.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com.szdx.lifeAssistant/demoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/FreeMarkers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/Exceptions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/staticpage/StaticPageService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/staticpage/StaticPageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/ftl/productDetail.html" />
-        <option value="$USER_HOME$/Downloads/AppInfoController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/pagehelper/PageHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/ResponseUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/persistence/web/BaseController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/interceptor/LoginInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/Base64Util.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/MD5Util.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com.szdx.lifeAssistant/demoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/float.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/css.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/margin.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/padding-index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/jfy/entity/Life.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/jfy/dao/Advice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/jfy/entity/Advice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/jfy/entity/AdviceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/jfy/service/Impl/AdviceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/jfy/controller/AdviceController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/jfy/dao/AdviceDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/jfy/service/Impl/AdviceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/jfy/service/AdviceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/interceptor/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/web/CustomDateEdtor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/UploadPicUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/web/ResponseCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/web/ServerResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/service/AdviceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/service/Impl/AdviceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/dao/AdviceDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/dao/VipDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/manage/VipDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/service/VipService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/service/Impl/VipServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/manage/AdviceDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/web/JavaDateJsonSerializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/web/CustomJsonDateConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/entity/Advice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/controller/AdviceController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/advice.html" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/../../study/77、SSM到Spring Boot 从零开发校园商铺平台/u1tigt/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/DESUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/IdGen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/cache/JedisPoolWriper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-redis.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/cache/JedisUtil.java" />
       </list>
     </option>
   </component>
@@ -204,7 +571,7 @@
   <component name="MavenProjectNavigator">
     <treeState />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -212,17 +579,15 @@
     <entry key="Project Default">
       <profile-state>
         <expanded-state>
-          <State>
-            <id />
-          </State>
+          <State />
           <State>
             <id>CodeSpring CoreSpring</id>
           </State>
           <State>
-            <id>Encapsulation issuesJava</id>
+            <id>Java</id>
           </State>
           <State>
-            <id>Java</id>
+            <id>Mybatis</id>
           </State>
           <State>
             <id>SetupSpring CoreSpring</id>
@@ -249,365 +614,168 @@
             <id>Spring Web ServicesSpring</id>
           </State>
           <State>
+            <id>XML</id>
+          </State>
+          <State>
             <id>XMLSpring CoreSpring</id>
           </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>SpringJavaAutowiringInspection</id>
+            <id>CheckTagEmptyBody</id>
           </State>
         </selected-state>
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="staticpage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interceptor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeAssistant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="lifeAssistant" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lifeAssistant" type="58d84e3e:PackageViewProjectNode" />
+              <item name="lifeAssistant" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lifeAssistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeAssistant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeAssistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeAssistant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeAssistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeAssistant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeAssistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeAssistant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeAssistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeAssistant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lifeAssistant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeAssistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeAssistant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lifeAssistant" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeAssistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeAssistant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeAssistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeAssistant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeAssistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeAssistant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeAssistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeAssistant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeAssistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeAssistant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeAssistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeAssistant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeAssistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeAssistant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.szdx.lifeAssistant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lifeAssistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lifeAssistant" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Errors" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../w10fwr" />
-    <property name="SearchEverywhereHistoryKey" value="log&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/resources/logback.xml&#10;pom&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/pom.xml&#10;pom.&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/pom.xml&#10;jdbc&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/resources/jdbc.properties&#10;newsCon&#9;PSI&#9;JAVA://com.szdx.lifeAssistant.sys.controller.NewsController&#10;log4&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/resources/log4j.properties&#10;layui&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/webapp/static/layui/layui.js&#10;ta&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/webapp/WEB-INF/pages/include/taglib.jsp&#10;cache&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/webapp/static/js/cache.js&#10;index&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/webapp/static/js/index.js&#10;main.js&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/webapp/static/js/main.js&#10;life&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/java/com/szdx/lifeAssistant/sys/entity/Life.java&#10;login&#9;PSI&#9;JAVA://com.szdx.lifeAssistant.interceptor.LoginInterceptor&#10;u&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/java/com/szdx/lifeAssistant/sys/controller/UserController.java&#10;bodyTab&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/webapp/static/js/bodyTab.js&#10;cache.js&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/webapp/static/js/cache.js&#10;index.js&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/webapp/static/js/index.js&#10;loginI&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/java/com/szdx/lifeAssistant/interceptor/LoginInterceptor.java&#10;Ind&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/java/com/szdx/lifeAssistant/sys/controller/IndexController.java&#10;user&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/java/com/szdx/lifeAssistant/sys/entity/User.java&#10;spring-&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/resources/spring-mvc.xml&#10;userCont&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/java/com/szdx/lifeAssistant/sys/controller/UserController.java&#10;us&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/java/com/szdx/lifeAssistant/sys/entity/User.java&#10;applicationContext&#9;PSI&#9;JAVA://org.springframework.context.ApplicationContext" />
-    <property name="FullScreen" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="web&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/webapp/WEB-INF/web.xml&#10;base&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/java/com/szdx/lifeAssistant/common/persistence/web/BaseController.java&#10;spring-&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/resources/spring-mybatis.xml&#10;mybatis&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/resources/mybatis-config.xml&#10;logback&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/resources/logback.xml&#10;renderJson&#9;PSI&#9;JAVA://com.szdx.lifeAssistant.common.utils.ResponseUtils#renderJson&#10;advice&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/webapp/views/advice.html&#10;pom&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/pom.xml&#10;jdbc&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/resources/jdbc.properties&#10;vip&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/java/com/szdx/lifeAssistant/sys/dao/VipDao.java&#10;JsonSerializer&#9;PSI&#9;JAVA://com.google.gson.JsonSerializer&#10;vipS&#9;PSI&#9;JAVA://com.szdx.lifeAssistant.sys.service.VipService&#10;advice.html&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/webapp/views/advice.html&#10;life&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/resources/mapper/manage/LifeDao.xml&#10;adviceDa&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/java/com/szdx/lifeAssistant/sys/dao/AdviceDao.java&#10;adviceDao&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/java/com/szdx/lifeAssistant/sys/dao/AdviceDao.java&#10;adviceService&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/java/com/szdx/lifeAssistant/sys/service/Impl/AdviceServiceImpl.java&#10;index&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/java/com/szdx/lifeAssistant/sys/controller/IndexController.java&#10;news&#9;PSI&#9;JAVA://com.szdx.lifeAssistant.sys.controller.NewsController&#10;user&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/java/com/szdx/lifeAssistant/sys/controller/UserController.java&#10;advice.&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/webapp/views/advice.html&#10;LoginInterceptor&#9;PSI&#9;JAVA://com.szdx.lifeAssistant.interceptor.LoginInterceptor&#10;advice.htm&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/webapp/views/advice.html&#10;log&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/resources/logback.xml&#10;pom.&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/pom.xml&#10;newsCon&#9;PSI&#9;JAVA://com.szdx.lifeAssistant.sys.controller.NewsController&#10;log4&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/resources/log4j.properties&#10;layui&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/webapp/static/layui/layui.js&#10;ta&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/webapp/WEB-INF/pages/include/taglib.jsp&#10;cache&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/webapp/static/js/cache.js&#10;main.js&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/webapp/static/js/main.js&#10;login&#9;PSI&#9;JAVA://com.szdx.lifeAssistant.interceptor.LoginInterceptor&#10;u&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/java/com/szdx/lifeAssistant/sys/controller/UserController.java&#10;bodyTab&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/webapp/static/js/bodyTab.js&#10;cache.js&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/webapp/static/js/cache.js&#10;index.js&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/webapp/static/js/index.js&#10;loginI&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/java/com/szdx/lifeAssistant/interceptor/LoginInterceptor.java&#10;Ind&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/java/com/szdx/lifeAssistant/sys/controller/IndexController.java&#10;userCont&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/java/com/szdx/lifeAssistant/sys/controller/UserController.java&#10;us&#9;FILE&#9;file:///Users/shizhicheng/Desktop/iwork/lifeAssistant/src/main/java/com/szdx/lifeAssistant/sys/entity/User.java&#10;applicationContext&#9;PSI&#9;JAVA://org.springframework.context.ApplicationContext" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546412470854" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -615,64 +783,33 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.szdx.lifeAssistant.common.web" />
+      <recent name="com.szdx.lifeAssistant.sys.controller" />
+      <recent name="com.szdx.lifeAssistant.sys.entity" />
+      <recent name="com.szdx.lifeAssistant.jfy.entity" />
       <recent name="com.szdx.lifeAssistant.common.utils" />
-      <recent name="com.szdx.lifeAssistant.common.persistence.dao" />
-      <recent name="com.szdx.lifeAssistant.common.aop" />
-      <recent name="com.szdx.lifeAssistant.common.persistence.web" />
-      <recent name="com.szdx.lifeAssistant.common.persistence" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/cache" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/jfy/dao" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/static/css" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager" selected="Tomcat Server.szc">
-    <configuration default="false" name="demoTest.randomLong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.szdx.lifeAssistant.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="lifeAssistant" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.szdx.lifeAssistant" />
-      <option name="MAIN_CLASS_NAME" value="com.szdx.lifeAssistant.demoTest" />
-      <option name="METHOD_NAME" value="randomLong" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -720,146 +857,6 @@
       </Profilers>
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="depsClasspath" value="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -879,113 +876,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="lifeAssistant" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
@@ -1016,32 +906,98 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="false" name="szc" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.21" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home">
+    <configuration name="demoTest.randomLong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lifeAssistant" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.szdx.lifeAssistant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.szdx.lifeAssistant" />
+      <option name="MAIN_CLASS_NAME" value="com.szdx.lifeAssistant.demoTest" />
+      <option name="METHOD_NAME" value="randomLong" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="szc" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.2" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <deployment>
         <artifact name="lifeAssistant:war exploded">
           <settings>
@@ -1057,7 +1013,6 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="51768" />
       </RunnerSettings>
@@ -1106,24 +1061,40 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
+      <method v="2">
+        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="lifeAssistant:war exploded" />
         </option>
       </method>
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.szc" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.demoTest.randomLong" />
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.szc" />
+      <item itemvalue="JUnit.demoTest.randomLong" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.demoTest.randomLong" />
+      <list>
+        <item itemvalue="JUnit.demoTest.randomLong" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -1173,6 +1144,44 @@
       <workItem from="1535439923572" duration="249000" />
       <workItem from="1535504302433" duration="1900000" />
       <workItem from="1535519547485" duration="173000" />
+      <workItem from="1536823628517" duration="1474000" />
+      <workItem from="1537248220322" duration="415000" />
+      <workItem from="1537319492478" duration="348000" />
+      <workItem from="1537334497496" duration="467000" />
+      <workItem from="1537501649116" duration="3274000" />
+      <workItem from="1537837469919" duration="651000" />
+      <workItem from="1537952378685" duration="1535000" />
+      <workItem from="1537927467817" duration="6462000" />
+      <workItem from="1538010023921" duration="702000" />
+      <workItem from="1538027218527" duration="463000" />
+      <workItem from="1540346972456" duration="1171000" />
+      <workItem from="1540349180129" duration="271000" />
+      <workItem from="1540363278853" duration="931000" />
+      <workItem from="1545022915972" duration="209000" />
+      <workItem from="1545033428180" duration="850000" />
+      <workItem from="1545034971966" duration="1673000" />
+      <workItem from="1545036781906" duration="1660000" />
+      <workItem from="1545038603271" duration="549000" />
+      <workItem from="1545095626048" duration="1019000" />
+      <workItem from="1545098002955" duration="52000" />
+      <workItem from="1545098091469" duration="5030000" />
+      <workItem from="1545114486986" duration="5494000" />
+      <workItem from="1545181867812" duration="4289000" />
+      <workItem from="1545196857515" duration="3128000" />
+      <workItem from="1545270199185" duration="7404000" />
+      <workItem from="1545288635348" duration="1818000" />
+      <workItem from="1545297555247" duration="446000" />
+      <workItem from="1545355275045" duration="10097000" />
+      <workItem from="1545707876652" duration="2427000" />
+      <workItem from="1545789061285" duration="1861000" />
+      <workItem from="1545873853860" duration="6507000" />
+      <workItem from="1545959227869" duration="7628000" />
+      <workItem from="1546046307900" duration="3015000" />
+      <workItem from="1546391408395" duration="6625000" />
+      <workItem from="1546494488398" duration="453000" />
+      <workItem from="1546829943747" duration="1256000" />
+      <workItem from="1546831547352" duration="2090000" />
+      <workItem from="1546910067221" duration="3727000" />
     </task>
     <servers />
   </component>
@@ -1200,9 +1209,9 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96497000" />
+    <option name="totallyTimeSpent" value="193968000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -1213,76 +1222,49 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39726028" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47260273" sideWeight="0.49676898" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2374798" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33013698" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27382874" />
+      <window_info id="Structure" order="1" weight="0.24959612" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4808219" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49676898" weight="0.5178082" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.503231" side_tool="true" weight="0.39726028" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.33013698" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32876712" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Problems" order="14" weight="0.32876712" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Thumbnails" order="16" weight="0.32876712" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Designer" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="JSF" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32956383" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32956383" />
+      <window_info anchor="right" id="CDI" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32956383" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39726028" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47260273" sideWeight="0.49676898" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33013698" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2374798" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1295,386 +1277,397 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/interceptor/LoginInterceptor.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/controller/AdviceController.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/Exceptions.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="66" column="46" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="46" />
+        <state relative-caret-position="135">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/IdGen.java">
+    <entry file="jar://$PROJECT_DIR$/../../service/mavenRepository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar!/com/fasterxml/jackson/annotation/JsonFormat.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        <state relative-caret-position="135">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/FreeMarkers.java">
+    <entry file="jar://$PROJECT_DIR$/../../service/mavenRepository/com/google/code/gson/gson/2.3.1/gson-2.3.1-sources.jar!/com/google/gson/JsonSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        <state relative-caret-position="345">
+          <caret line="71" column="31" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../service/mavenRepository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20-sources.jar!/freemarker/template/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5175">
-          <caret line="814" column="66" selection-start-line="814" selection-start-column="66" selection-end-line="814" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/dao/ShopDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/manage/NewsDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../service/mavenRepository/org/mybatis/mybatis/3.2.8/mybatis-3.2.8-sources.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+    <entry file="jar://$PROJECT_DIR$/../../service/mavenRepository/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar!/org/springframework/core/convert/converter/Converter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="13" />
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../service/mavenRepository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar!/org/springframework/web/multipart/MultipartFile.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/web/JavaDateJsonSerializer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/service/VipService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/AppInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2370">
-          <caret line="192" column="36" selection-start-line="192" selection-start-column="36" selection-end-line="192" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="77" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/ResponseData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/manage/UserDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="51" column="58" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/manage/VipDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        <state relative-caret-position="299">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/dao/VipDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="247">
+          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../service/mavenRepository/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/manage/AdviceDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+        <state relative-caret-position="274">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/pagehelper/PageHelper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/UploadPicUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/manage/VipDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        <state relative-caret-position="262">
+          <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../service/mavenRepository/log4j/log4j/1.2.16/log4j-1.2.16.jar!/org/apache/log4j/PatternLayout.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/controller/ShopController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="125">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="jar://$PROJECT_DIR$/../../service/mavenRepository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+        <state relative-caret-position="108">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/service/AdviceService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="285">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../service/mavenRepository/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar!/ch/qos/logback/classic/filter/LevelFilter.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/web/CustomJsonDateConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="390">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/ResponseUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/persistence/web/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/json/address.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1335">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/ftl/productDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/dao/NewsDao.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.szdx.lifeAssistant/demoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/controller/VipController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/web/CustomDateEdtor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/controller/NewsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/entity/Advice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1935">
-          <caret line="153" column="50" selection-start-line="153" selection-start-column="50" selection-end-line="153" selection-end-column="50" />
+        <state relative-caret-position="455">
+          <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/advice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="145" column="19" lean-forward="true" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/controller/AdviceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="570">
+          <caret line="38" column="115" selection-start-line="38" selection-start-column="115" selection-end-line="38" selection-end-column="115" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../../study/77、SSM到Spring Boot 从零开发校园商铺平台/u1tigt/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="281" column="19" selection-start-line="281" selection-start-column="19" selection-end-line="281" selection-end-column="19" />
+        <state relative-caret-position="281">
+          <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="368">
+          <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="134" column="17" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
+        <state relative-caret-position="11">
+          <caret line="292" lean-forward="true" selection-start-line="292" selection-end-line="292" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/service/Impl/LifeServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/entity/Life.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="30">
+          <caret line="2" column="85" selection-start-line="2" selection-start-column="85" selection-end-line="2" selection-end-column="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="292">
+          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/aop/FilterAOP.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        <state relative-caret-position="363">
+          <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/exception/INVLowException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="60">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/exception/BizException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/Exceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/EncryptPropertyPlaceholderConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/staticpage/StaticPageService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/persistence/dao/Dao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="-67">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/staticpage/StaticPageServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/persistence/dao/EntryDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+        <state relative-caret-position="135">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../service/mavenRepository/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/DESUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="74" column="17" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
+        <state relative-caret-position="-349">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/interceptor/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/interceptor/TokenInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/manage/LifeDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-          <folding>
-            <marker date="1523282487000" expanded="true" signature="261:308" ph="select * fro... sys_life" />
-            <marker date="1523282487000" expanded="true" signature="361:396" ph="DELETE FROM " />
-            <marker date="1523282487000" expanded="true" signature="449:571" ph="UPDATE sys_l... " />
-            <marker date="1523282487000" expanded="true" signature="622:868" ph="insert INTO sys_life... " />
-            <marker date="1523282487000" expanded="true" signature="940:995" ph="SELECT * FRO... sys_life" />
-            <marker date="1523282487000" expanded="true" signature="1060:1092" ph="SELECT count... sys_life" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/sys/dao/LifeDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/persistence/web/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/web/CustomDateEdtor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/Base64Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="93">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/IdGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/JWTUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/MD5Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="420">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/ResponseData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/ResponseUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1086">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/utils/UploadPicUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/api/ApiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1787">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../service/mavenRepository/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/SortingParams.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../service/mavenRepository/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/SortingParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/persistence/entity/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="33" column="75" lean-forward="true" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="75" />
+          <folding>
+            <element signature="e#1199#1218#0" expanded="true" />
+            <element signature="e#1257#1272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/cache/JedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <element signature="e#1355#1356#0" expanded="true" />
+            <element signature="e#1381#1382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/szdx/lifeAssistant/common/cache/JedisPoolWriper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../service/mavenRepository/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/JedisPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
